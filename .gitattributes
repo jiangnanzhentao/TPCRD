@@ -1,0 +1,2 @@
+teacher_cond_texture_best.pth filter=lfs diff=lfs merge=lfs -text
+student_distill_texture_best.pth filter=lfs diff=lfs merge=lfs -text
