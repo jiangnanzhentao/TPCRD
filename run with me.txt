@@ -1,0 +1,1 @@
+python train_TPCRD.py --mvtec_root mvtec --class_name all --out_dir .\outputs\tpcrd\all --ckpt_dir .\checkpoints
