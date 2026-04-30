@@ -12,6 +12,12 @@ carpet, grid, leather, tile, wood
 
 ## Command
 
+For train:
+
+```bash
+python train_TPCRD.py --mvtec_root mvtec --class_name all --out_dir .\outputs\tpcrd\all --ckpt_dir .\checkpoints --precompute_cluster_router_cache --cluster_router_device cuda
+```  
+ 
 For evaluation:
 
 ```bash
