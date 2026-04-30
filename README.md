@@ -42,13 +42,6 @@ From the project root:
 ```bash
 python eval_mvtec_texture.py --mvtec_root mvtec --checkpoint .\checkpoints\student_distill_texture_best.pth --image_size 256
 ```
-
-Command:
-
-```bash
-python eval_mvtec_texture.py --mvtec_root mvtec --checkpoint .\checkpoints\student_distill_texture_best.pth --image_size 256
-```
-
 Output:
 
 ```text
