@@ -10,34 +10,9 @@ This script evaluates a unified multi-class anomaly detection model on the five 
 carpet, grid, leather, tile, wood
 ```
 
-The evaluator reads the original MVTec AD directory structure directly. It does not require pseudo-domain txt files or a manually merged dataset. If fewer than five texture categories are present under `mvtec_root`, the script evaluates only the existing ones. Non-texture categories are ignored.
-
-## Dataset Structure
-
-Expected MVTec AD layout:
-
-```text
-mvtec/
-├── carpet/
-│   ├── test/
-│   └── ground_truth/
-├── grid/
-│   ├── test/
-│   └── ground_truth/
-├── leather/
-│   ├── test/
-│   └── ground_truth/
-├── tile/
-│   ├── test/
-│   └── ground_truth/
-└── wood/
-    ├── test/
-    └── ground_truth/
-```
-
 ## Command
 
-From the project root:
+For evaluation:
 
 ```bash
 python eval_mvtec_texture.py --mvtec_root mvtec --checkpoint .\checkpoints\student_distill_texture_best.pth --image_size 256
