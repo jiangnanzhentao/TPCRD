@@ -1,8 +1,6 @@
-# Pseudo-Domain-Conditioned Reverse Distillation
-# for Multi-class Anomaly Detection on Complex
-# Textured Surfaces
+# TPCRD
 
-# MVTec AD Texture Evaluation
+## MVTec AD Texture Evaluation
 
 This script evaluates a unified multi-class anomaly detection model on the five texture categories of MVTec AD:
 
